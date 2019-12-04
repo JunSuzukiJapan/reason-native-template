@@ -1,0 +1,28 @@
+{
+  "name": "project-name",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir" : "src",
+      "subdirs" : true
+    },
+    {
+      "dir" : "test",
+      "subdirs" : true,
+      "type" : "dev"
+    }
+  ],
+  "refmt": 3,
+  "entries": [
+    {
+      "backend": "native",
+      "output-name": "output",
+      "main-module": "Main"
+    },
+    {
+      "backend": "bytecode",
+      "output-name": "output",
+      "main-module": "Test"
+    }
+  ]
+}
