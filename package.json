@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "npx bsb -backend native -make-world",
+    "run": "npx bsb -backend native -make-world && lib/bs/native/output",
     "test": "npx bsb -backend bytecode -make-world && lib/bs/bytecode/output",
     "clean": "npx bsb -clean-world"
   },
