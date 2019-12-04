@@ -7,12 +7,17 @@ Hello! This project allows you to quickly get started with Reason and BuckleScri
 npm run build
 ```
 
-# Build + Watch
+# Build + Run
 
 ```
-npm run start
+npm run run
 ```
 
+# Test
+
+```
+npm test
+```
 
 # Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+If you use `vscode`, Press `Cmd + Shift + B` it will build automatically, and Press `Cmd + Shift + T` it will run UnitTest automativally.
