@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^4.0.7",
-    "bsb-native": "^4.0.1100"
+    "bsb-native": "^5.0.3"
   },
   "dependencies": {
     "npm": "^11.11.1"
